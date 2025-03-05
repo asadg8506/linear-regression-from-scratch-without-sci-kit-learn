@@ -24,7 +24,7 @@ pip install numpy pandas
 Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/linear-regression-numpy-pandas.git
+   git clone https://github.com/asadg8506/linear-regression-numpy-pandas.git
    cd linear-regression-numpy-pandas
    ```
 2. Run the main script:
