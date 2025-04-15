@@ -29,6 +29,15 @@ This project demonstrates how to implement Linear Regression from scratch using 
 ├── .gitignore                       # Git ignored files
 ├── LICENSE                          # MIT License
 
+
+
+
+
+## 📁 Project Structure
+
+├── README.md # Project documentation ├── linear_regression.py # Linear Regression (Basic) ├── lasso_regression.py # Lasso Regression (L1 Regularization) ├── ridge_regression.py # Ridge Regression (L2 Regularization) ├── elasticnet_regression.py # ElasticNet Regression (Mix of L1 and L2) ├── .gitignore # Git ignored files ├── LICENSE # MIT License
+
+
 ## Installation
 
 Ensure you have Python installed along with NumPy and Pandas. You can install dependencies using:
