@@ -16,7 +16,18 @@ This project demonstrates how to implement Linear Regression from scratch using 
 - Normalization of input features  
 - Model training using Gradient Descent and Normal Equation  
 - L1, L2, and ElasticNet Regularization  
-- Performance evaluation with MSE  
+- Performance evaluation with MSE
+
+
+📁 Project Structure
+
+├── README.md                        # Project documentation
+├── linear_regression.py             # Linear Regression (Basic)
+├── lasso_regression.py              # Lasso Regression (L1 Regularization)
+├── ridge_regression.py              # Ridge Regression (L2 Regularization)
+├── elasticnet_regression.py         # ElasticNet Regression (Mix of L1 and L2)
+├── .gitignore                       # Git ignored files
+├── LICENSE                          # MIT License
 
 ## Installation
 
