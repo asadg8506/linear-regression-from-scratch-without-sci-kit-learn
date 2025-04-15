@@ -19,7 +19,7 @@ This project demonstrates how to implement Linear Regression from scratch using 
 - Performance evaluation with MSE
 
 
-📁 Project Structure
+## Project Structure
 
 ├── README.md                        # Project documentation
 ├── linear_regression.py             # Linear Regression (Basic)
@@ -47,42 +47,34 @@ python lasso_regression.py          # For L1 regularization
 python elasticnet_regression.py     # For ElasticNet
 Modify the dataset or parameters as needed in each script.
 
-File Structure
-├── data.csv                     # Sample dataset
-├── linear_regression.py         # Basic Linear Regression
-├── ridge_regression.py          # Ridge (L2 Regularization)
-├── lasso_regression.py          # Lasso (L1 Regularization)
-├── elasticnet_regression.py     # ElasticNet (L1 + L2 Regularization)
-├── utils.py                     # Helper functions
-├── README.md                    # Project documentation
-Implementation Details
+## Implementation Details
+
 Data Loading & Preprocessing
 Data is loaded using Pandas
-
 Missing values are handled appropriately
-
 Features are normalized for better performance in Gradient Descent
 
-Model Training
+## Model Training
+
 Two approaches are implemented:
-
 Normal Equation: Closed-form solution for linear regression
-
 Gradient Descent: Iterative approach to minimize cost function
-
 L1/L2/ElasticNet: Regularized cost functions to prevent overfitting
 
-Model Evaluation
-Mean Squared Error (MSE) is used to measure model performance
+## Model Evaluation
 
+Mean Squared Error (MSE) is used to measure model performance
 Predictions can be compared against actual values
 
-📁 Dataset
+## Dataset
+
 You can use your own dataset or try the sample one:
 https://www.kaggle.com/datasets/kyanyoga/sample-sales-data
 
-Contributing
+## Contributing
+
 Contributions are welcome! Feel free to fork the repository and submit pull requests.
 
-License
+## License
+
 This project is licensed under the MIT License.
